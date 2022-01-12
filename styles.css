@@ -1,0 +1,211 @@
+* {margin: 0; padding: 0;}
+/* https://paletton.com/#uid=a3J0V0kxbFTk1L0pMHCFntCGKn1 색고르기*/
+#wrap {width: 1200px; margin: 0 auto;}
+
+/* 화면 축소시 깨지지 않게 하기위함 */
+/* 화면 너비 0 ~ 1200px */
+@media (max-width: 1240px){
+    #wrap {width: 100%;}
+
+    .article1 {height: 250px;
+        border-radius:  70px 0 0 0; }
+
+    .article2 {height: 250px;
+        border-radius:  0 70px 0 0; }
+
+    .article3 {height: 250px;}
+    .article4 {height: 250px;}
+    .pam1 {height: 1000px;}
+    .about1 {height: 500px;
+    width: 97.95%;
+    }
+
+}
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px){
+    .nav {width: 100%; height: 70px;}
+    .article1 {width: 50%;
+        border-radius: 0; }
+    .article2 {width: 50%;
+        border-radius: 0; }
+    .article3 {width: 50%;}
+    .article4 {width: 50%;}
+    .pam1 {width: 100%;height: 80%;}
+    .about1 {height: 500px;
+        width: 96.95%;
+        }
+    .login {width: 50%}    
+}
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){
+    .article1 {width: 100%;}
+    .article2 {width: 100%;}
+    .article3 {width: 100%;}
+    .article4 {width: 100%;}
+    .pam1 {width: 100%;}
+    .about1 {
+        border-radius:  120px 120px 120px 120px;
+        width: 93.95%;
+        }
+}
+
+/* 화면 축소시 깨지지 않게 하기위함 */
+
+
+body {background-color: #3869CB;
+}
+
+header {
+    width: 100%; height: 100px; padding-top: 30px;
+    display:inline-block; text-align: center;
+    font-weight: bold; font-size: 50px;
+    color: #FFA500;
+}
+
+
+
+.nav { 
+    width: 100%; height: 50px;
+}
+
+ul.naveItems {
+    
+    list-style-type: none;
+    overflow: hidden;
+    display: inline;
+    opacity: 0.7;
+}
+
+ul.navItemsLeft {
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+
+
+li { float: left; }
+
+li a.navItemLeft{
+    display: inline-block;
+    color: white;
+    background-color: EFE7FD;
+    padding: 8px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line : none;
+}
+
+li a.navItem{
+    display: inline-block;
+    color: whitesmoke;
+    padding: 8px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line : none;
+}
+
+/* 마우스 위로 올리면 네비 강조 */
+.navItemLeft:hover{color: blueviolet;
+    text-decoration: underline;
+border-radius: 20px;}
+
+
+.navItemLeft:hover{color: blueviolet;
+    text-decoration: underline;
+border-radius: 20px;}
+/* 마우스 위로 올리면 네비 강조 */
+
+
+
+
+.aside {float: left; width: 30%; height: 900px;}
+
+.article1 {float: left; width: 50%; height: 300px; background: #FFB832;
+    border-radius:  150px 0 0 0;
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black
+
+}
+
+.article2 {float: right; width: 50%; height: 300px; background: #FFC85F;
+    border-radius:  0 150px 0 0;
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black
+}
+
+.article3 {float: left; width: 50%; height: 300px; background: #FFB832}
+
+.article4 {float: right; width: 50%; height: 300px; background: #FFB832;
+	background-image: url("다같이.png");
+	background-size: 100%;
+    background-repeat : no-repeat;
+}
+
+.pam1 {width: 100%; height: 700px;}
+
+.id1 {width: 100%; height: 800px; background-image: url(배경이미지.png);
+    background-size: 100%; background-color: snow;
+    }
+
+.idtle {width: 100%; height: 800px; padding-left: 70px;
+    padding-top: 100px;
+    }
+
+.about1 {float: left; width: 100%; height: 600px;
+    background: #FFB832;
+    border-radius:  150px 150px 150px 150px;
+    border: 10px #b77700 solid;
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black
+}
+
+.login{float: left; width: 90%; height: 600px;
+    background-color: blanchedalmond;
+    background-size: 100%;
+    background-repeat : no-repeat;
+    border-radius:  150px 150px 150px 150px;
+    border: 0px;
+    display: block;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: black
+}
+
+fieldset {
+    border: 0px;
+
+}
+
+button {
+    border: 0px;
+    background-color: blanchedalmond ;
+    font-size: 10px ;
+    text-align: center;
+    font-weight: bold;
+}
+
+#findId:hover{color: blueviolet;
+    text-decoration: underline;
+border-radius: 20px;}
+
+
+
+.footer {
+    clear: both; width: 100%; height: 50px; display: block;
+    padding-top: 15px;
+
+}
+
